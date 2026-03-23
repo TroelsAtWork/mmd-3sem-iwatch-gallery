@@ -3,13 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-iwatch-blue: #a0c1d5;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-iwatch-blue: #a0c1d5;
+  --color-iwatch-gradient-from: #b6ccda;
+  --color-iwatch-gradient-to: #c8dce5;
+  --color-iwatch-text: rgb(243, 243, 243);
+  --shadow-iwatch: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +22,7 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  /* background: var(--background);
+  color: var(--foreground); */
   font-family: Arial, Helvetica, sans-serif;
 }

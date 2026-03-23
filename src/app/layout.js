@@ -21,7 +21,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen place-items-center place-content-center`}
+        // style={{ backgroundColor: `var(--color-iwatch-blue)` }}
+        className="bg-linear-to-r from-iwatch-gradient-from to-iwatch-gradient-to antialiased w-full h-screen place-items-center place-content-center"
       >
         {children}
       </body>
