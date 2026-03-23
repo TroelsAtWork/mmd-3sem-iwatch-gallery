@@ -7,8 +7,8 @@ import Dot from "@/components/Dot";
 import "./globals.css";
 
 export default function Home() {
-  // I Next.js fungerer mappen public som "roden"
-  // (/) for dine statiske filer (billeder, fonts, ikoner osv.).
+  // I Next.js fungerer mappen public som "roden" (/),
+  // for dine statiske filer (billeder, fonts, ikoner osv.).
   const [activeWatchImage, setActiveWatchImage] = useState("/mint.png");
   return (
     <main className="w-fit grid grid-cols-[486px_40px] grid-rows-[486px_fit]">
