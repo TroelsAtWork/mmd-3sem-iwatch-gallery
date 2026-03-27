@@ -16,19 +16,19 @@ export default function Home() {
       <div className="flex flex-col gap-5 justify-center">
         <Dot
           color="mint"
-          relatedImage="/mint.png"
+          relatedWatchImage="/mint.png"
           activeWatchImage={activeWatchImage}
           setActiveWatchImage={setActiveWatchImage}
         />
         <Dot
           color="navy"
-          relatedImage="/navy.png"
+          relatedWatchImage="/navy.png"
           activeWatchImage={activeWatchImage}
           setActiveWatchImage={setActiveWatchImage}
         />
         <Dot
           color="ocean"
-          relatedImage="/ocean.png"
+          relatedWatchImage="/ocean.png"
           activeWatchImage={activeWatchImage}
           setActiveWatchImage={setActiveWatchImage}
         />

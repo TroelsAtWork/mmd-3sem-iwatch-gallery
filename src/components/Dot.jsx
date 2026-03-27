@@ -5,15 +5,15 @@ const Dot = ({
   color,
   activeWatchImage,
   setActiveWatchImage,
-  relatedImage,
+  relatedWatchImage,
 }) => {
   return (
     <div
-      onClick={() => setActiveWatchImage(relatedImage)} 
+      onClick={() => setActiveWatchImage(relatedWatchImage)}
       style={{ backgroundColor: `var(--${color})` }}
       // className="cursor-pointer w-10 h-10 rounded-full"
       className={`cursor-pointer w-10 h-10 rounded-full ${
-        activeWatchImage === relatedImage ? "border-3" : ""
+        activeWatchImage === relatedWatchImage ? "border-3" : ""
       }`}
     ></div>
   );
