@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Figure = ({ img, setActiveWatchImage }) => {
+const Thumbnail = ({ img, setActiveWatchImage }) => {
   return (
     <figure>
       <Image
@@ -15,4 +15,4 @@ const Figure = ({ img, setActiveWatchImage }) => {
   );
 };
 
-export default Figure;
+export default Thumbnail;
