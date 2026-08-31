@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 
-const Figure = ({ imgsrc, setActiveImage }) => {
+const Figure = ({ imgsrc }) => {
   return (
-    <figure onClick={() => setActiveImage(imgsrc)}>
+    <figure>
       <Image
         src={imgsrc}
         alt=""
